@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 var config = {
   server: {
     port: process.env.HTTP_PORT || '8000'
